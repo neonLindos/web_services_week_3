@@ -2,6 +2,14 @@
 
 Третья тема курса **«Разработка веб-сервисов»**: интерфейсы и сервисы, регистрация зависимостей в DI-контейнере ASP.NET Core (`AddTransient`/`AddScoped`/`AddSingleton`), Constructor Injection, встроенное логирование (`ILogger<T>`).
 
+## Все работы по курсу CSE5032
+
+| Неделя | Тема | Репозиторий |
+|---|---|---|
+| 1 | Введение в ASP.NET Core | [web_services_week_1](https://github.com/neonLindos/web_services_week_1) |
+| 2 | Web API + CRUD | [web_services_week_2](https://github.com/neonLindos/web_services_week_2) |
+| 3 | Dependency Injection и логирование | **этот репозиторий** |
+
 | Работа | Проект | Ресурс | Что показано |
 |--------|--------|--------|-----------|
 | [homework/](homework/) | `StudentsDiApi` | Student | `IStudentService`/`StudentService`, `AddTransient`, `ILogger` (Information/Warning/Error) |
