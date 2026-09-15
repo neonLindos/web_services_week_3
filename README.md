@@ -15,16 +15,15 @@
 | Работа | Проект | Ресурс | Что показано |
 |--------|--------|--------|-----------|
 | [homework/](homework/) | `StudentsDiApi` | Student | `IStudentService`/`StudentService`, `AddTransient`, `ILogger` (Information/Warning/Error) |
+| [lab/](lab/) | `ProductsLabApi` | Product | `IProductService`/`ProductService` (GetAll/GetById/Add/Delete), `AddScoped`, `ILogger`, обработка исключения с `LogError` |
 | [prac/](prac/) | `ProductsApi` | Product | переход от `new` к DI, `AddScoped`, `ILogger` |
-
-> Методичка «Лабораторная работа» для этого модуля на момент публикации ещё не была выдана — папки `lab/` нет.
 
 ## Как запустить
 
 Нужен [.NET 8 SDK](https://dotnet.microsoft.com/download):
 
 ```bash
-cd homework   # или prac
+cd homework   # или lab, prac
 dotnet run
 ```
 
